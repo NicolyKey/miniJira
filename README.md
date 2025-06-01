@@ -30,17 +30,17 @@ server.port=8000 ``
 ### 3. Build e execução
 No terminal, execute:
 
-``
+```
 mvn clean install
 mvn spring-boot:run
-``
+```
 
 ### 🛠 Endpoints principais
 Usuários
 POST /api/usuarios — Cria um novo usuário
 Body exemplo:
 
-``
+```
 json
 {
   "id": "string (opcional)",
@@ -49,14 +49,14 @@ json
   "senhaHash": "uuid-ou-string-de-senha",
   "dataCadastro": "2025-06-01T20:00:00Z"
 }
-``
+```
 
 GET /api/usuarios — Lista todos os usuários
 
 ### Listas de Tarefas
 POST /api/listas — Cria uma nova lista de tarefas associada a um usuário
 Body exemplo:
-``
+```
 json
 {
   "nomeLista": "Sprint 1",
@@ -74,7 +74,7 @@ json
     }
   ]
 }
-``
+```
 GET /api/listas/criador/{criadorId} — Lista todas as listas criadas por um usuário
 
 ### 🛡 Considerações
