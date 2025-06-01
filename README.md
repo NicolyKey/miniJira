@@ -3,41 +3,6 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>MiniJira - README</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 2rem;
-      background-color: #f9f9f9;
-      color: #333;
-    }
-    h1, h2, h3 {
-      color: #2c3e50;
-    }
-    pre {
-      background-color: #eee;
-      padding: 1rem;
-      border-radius: 4px;
-      overflow-x: auto;
-    }
-    code {
-      font-family: Consolas, monospace;
-      background-color: #eee;
-      padding: 0.2rem 0.4rem;
-      border-radius: 3px;
-    }
-    a {
-      color: #2980b9;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    ul {
-      margin-top: 0;
-    }
-  </style>
 </head>
 <body>
     <h1>MiniJira</h1>
